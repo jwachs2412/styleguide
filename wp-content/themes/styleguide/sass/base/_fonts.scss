@@ -1,0 +1,27 @@
+/*Fonts*/
+
+@font-face {
+font-family: MuseoSansLight;
+src: url('fonts/museosans_100-webfont.woff2') format('woff2'),
+url('fonts/museosans_100-webfont.woff') format('woff');
+}
+
+@font-face {
+font-family: MuseoSans300;
+src: url('fonts/museosans-300-webfont.woff2') format('woff2'),
+url('fonts/museosans-300-webfont.woff') format('woff');
+}
+
+
+@font-face {
+font-family: MuseoSansMedium;
+src: url('fonts/MuseoSans_500-webfont.woff2') format('woff2'),
+url('fonts/MuseoSans_500-webfont.woff') format('woff');
+}
+
+
+@font-face {
+font-family: MuseoSansBlack;
+src: url('fonts/museosans-700-webfont.woff2') format('woff2'),
+url('fonts/museosans-700-webfont.woff') format('woff');
+}
