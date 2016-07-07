@@ -8382,6 +8382,115 @@ ul.nav {
   top: 130px;
 }
 
+.palettes {
+  height: 100px;
+  margin: 5px 25px;
+  overflow: hidden;
+  width: 200px;
+}
+
+.palettes .palette-info {
+  bottom: 0;
+  left: -100%;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 2.5em;
+  transition: 0.3s all;
+  -webkit-transition: 0.3s all;
+}
+
+.palettes:hover .palette-info {
+  left: 0;
+  opacity: 1;
+  text-align: center;
+}
+
+.palette-info > span {
+  display: block;
+  font-size: 16px;
+}
+
+.palettes:hover .palette-info.light {
+  color: #f0f0f0;
+}
+
+span.hex {
+  text-transform: uppercase;
+}
+
+.primary_sco-red {
+  background: #df533f;
+}
+
+.primary_sco-dark-red {
+  background: #c1301d;
+}
+
+.primary_sco-salmon {
+  background: #fa7867;
+}
+
+.primary_sco-pink {
+  background: #ffa093;
+}
+
+.primary_sco-brick-red {
+  background: #991909;
+}
+
+.secondary_sco-med-gray {
+  background: #605f63;
+}
+
+.secondary_sco-med-light-gray {
+  background: #7d7c80;
+}
+
+.secondary_sco-dark-gray {
+  background: #424145;
+}
+
+.secondary_sco-light-gray {
+  background: #efefef;
+}
+
+.tertiary_sco-fire-red {
+  background: #9e191c;
+}
+
+.tertiary_sco-med-dark-red {
+  background: #c23335;
+}
+
+.tertiary_sco-light-red {
+  background: #dc585b;
+}
+
+.tertiary_sco-dark-orange {
+  background: #ef670f;
+}
+
+.tertiary_sco-orange {
+  background: #fb8b41;
+}
+
+.tertiary_sco-light-orange {
+  background: #ffa265;
+}
+
+.tertiary_sco-green {
+  background: #327069;
+}
+
+.tertiary_sco-med-green {
+  background: #518782;
+}
+
+.tertiary_sco-light-green {
+  background: #76a09c;
+}
+
 body {
   padding-top: 100px;
   color: #605f63;
@@ -8482,4 +8591,52 @@ section h1 {
 
 ul.nav h2 {
   padding-top: 30px;
+}
+
+/*! =Media Queries
+-------------------------------------------------------------- */
+/* 1169-992px */
+@media only screen and (min-width: 992px) and (max-width: 1169px) {
+  .palettes {
+    margin: 5px;
+  }
+}
+/* 991-768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .palettes {
+    height: 125px;
+    margin: 5px;
+    width: 225px;
+  }
+
+  .palettes .palette-info {
+    top: 3.5em;
+  }
+}
+/* 767-480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .palettes {
+    height: 125px;
+    margin: 5px;
+    width: 135px;
+  }
+}
+/* 479px */
+@media only screen and (max-width: 479px) {
+  .palettes {
+    height: 125px;
+    margin: 5px;
+    width: 100%;
+  }
+
+  .palettes .palette-info {
+    left: 0;
+    opacity: 1;
+    text-align: center;
+    top: 3em;
+  }
+
+  .palette-info.light {
+    color: #f0f0f0;
+  }
 }

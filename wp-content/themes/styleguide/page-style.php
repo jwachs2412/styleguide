@@ -39,7 +39,131 @@ get_header(); ?>
 					<!--begin Brand & Style-->
 					<section id="color">
 						  <h1>Color</h1>
-						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						  	<div class="row">
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes primary_sco-brick-red">
+								  	<div class="palette-info light">
+										<span class="sass-var">$scoBrickRed</span>
+										<span class="hex">#991909</span>
+								  	</div>								  	
+							  	</div>
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes tertiary_sco-fire-red">
+								  	<div class="palette-info light">
+										<span class="sass-var">$scoFireRed</span>
+										<span class="hex">#9e191c</span>
+								  	</div>								  	
+							  	</div>
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes primary_sco-dark-red">
+								  	<div class="palette-info light">
+										<span class="sass-var">$scoDarkRed</span>
+										<span class="hex">#c1301d</span>
+								  	</div>								  	
+							  	</div>
+						  	</div>
+						  	
+						  	<div class="row">
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes tertiary_sco-med-dark-red">
+								  	<div class="palette-info light">
+										<span class="sass-var">$scoMedDarkRed</span>
+										<span class="hex">#c23335</span>
+								  	</div>								  	
+							  	</div>
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes primary_sco-red">
+								  	<div class="palette-info light">
+										<span class="sass-var">$scoRed</span>
+										<span class="hex">#df533f</span>
+								  	</div>
+							  	</div>
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes tertiary_sco-light-red">
+								  	<div class="palette-info light">
+										<span class="sass-var">$scoLightRed</span>
+										<span class="hex">#dc585b</span>
+								  	</div>								  	
+							  	</div>
+						  	</div>
+						  	
+						  	<div class="row">
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes primary_sco-salmon">
+								  	<div class="palette-info light">
+										<span class="sass-var">$scoSalmon</span>
+										<span class="hex">#fa7867</span>
+								  	</div>								  	
+							  	</div>
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes primary_sco-pink">
+								  	<div class="palette-info">
+										<span class="sass-var">$scoPink</span>
+										<span class="hex">#ffa093</span>
+								  	</div>
+							  	</div>
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes tertiary_sco-dark-orange">
+								  	<div class="palette-info light">
+										<span class="sass-var">$scoDarkOrange</span>
+										<span class="hex">#ef6704</span>
+								  	</div>
+							  	</div>
+						  	</div>
+						  	
+						  	<div class="row">
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes tertiary_sco-orange">
+								  	<div class="palette-info light">
+										<span class="sass-var">$scoOrange</span>
+										<span class="hex">#f41b8b</span>
+								  	</div>								  	
+							  	</div>
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes tertiary_sco-light-orange">
+								  	<div class="palette-info light">
+										<span class="sass-var">$scoLightOrange</span>
+										<span class="hex">#ffa265</span>
+								  	</div>								  	
+							  	</div>
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes secondary_sco-dark-gray">
+								  	<div class="palette-info light">
+										<span class="sass-var">$scoDarkGray</span>
+										<span class="hex">#424145</span>
+								  	</div>								  	
+							  	</div>						  	
+						  	</div>
+						  	
+						  	<div class="row">	
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes secondary_sco-med-gray">
+								  	<div class="palette-info light">
+										<span class="sass-var">$scoMedGray</span>
+										<span class="hex">#605f63</span>
+								  	</div>								  	
+							  	</div>
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes secondary_sco-med-light-gray">
+								  	<div class="palette-info light">
+										<span class="sass-var">$scoMedLightGray</span>
+										<span class="hex">#7d7c80</span>
+								  	</div>
+							  	</div>
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes secondary_sco-light-gray">
+								  	<div class="palette-info">
+										<span class="sass-var">$scoLightGray</span>
+										<span class="hex">#efefef</span>
+								  	</div>								  	
+							  	</div>
+						  	</div>					  	
+						  							  	
+						  	<div class="row">
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes tertiary_sco-green">
+								  	<div class="palette-info light">
+										<span class="sass-var">$scoGreen</span>
+										<span class="hex">#327069</span>
+								  	</div>
+							  	</div>
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes tertiary_sco-med-green">
+								  	<div class="palette-info light">
+										<span class="sass-var">$scoMedGreen</span>
+										<span class="hex">#518782</span>
+								  	</div>								  	
+							  	</div>
+							  	<div class="col-md-4 col-sm-4 col-xs-4 palettes tertiary_sco-light-green">
+								  	<div class="palette-info light">
+										<span class="sass-var">$scoLightGreen</span>
+										<span class="hex">#76a09c</span>
+								  	</div>								  	
+							  	</div>
+						  	</div>
 					  </section>
 					  
 					  <section id="typography">
