@@ -1,0 +1,108 @@
+.palettes {
+	height: 100px;
+	margin: 5px 25px;
+	overflow: hidden;
+	width: 200px;
+}
+
+.palettes .palette-info {
+    bottom: 0;
+    left: -100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 2.5em;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+}
+
+.palettes:hover .palette-info {
+    left: 0;
+	opacity: 1;
+	text-align: center;
+}
+
+.palette-info>span {
+	display: block;
+	font-size: 16px;
+}
+
+.palettes:hover .palette-info.light {
+	color: $paletteLight;
+}
+
+span.hex {
+	text-transform: uppercase;
+}
+
+.primary_sco-red {
+	background: $scoRed;
+}
+
+.primary_sco-dark-red {
+	background: $scoDarkRed;
+}
+
+.primary_sco-salmon {
+	background: $scoSalmon;
+}
+
+.primary_sco-pink {
+	background: $scoPink;
+}
+
+.primary_sco-brick-red {
+	background: $scoBrickRed;
+}
+
+.secondary_sco-med-gray {
+	background: $scoMedGray;
+}
+
+.secondary_sco-med-light-gray {
+	background: $scoMedLightGray;
+}
+
+.secondary_sco-dark-gray {
+	background: $scoDarkGray;
+}
+
+.secondary_sco-light-gray {
+	background: $scoLightGray;
+}
+
+.tertiary_sco-fire-red {
+	background: $scoFireRed;
+}
+
+.tertiary_sco-med-dark-red {
+	background: $scoMedDarkRed;
+}
+
+.tertiary_sco-light-red {
+	background: $scoLightRed;
+}
+
+.tertiary_sco-dark-orange {
+	background: $scoDarkOrange;
+}
+
+.tertiary_sco-orange {
+	background: $scoOrange;
+}
+
+.tertiary_sco-light-orange {
+	background: $scoLightOrange;
+}
+
+.tertiary_sco-green {
+	background: $scoGreen;
+}
+
+.tertiary_sco-med-green {
+	background: $scoMedGreen;
+}
+
+.tertiary_sco-light-green {
+	background: $scoLightGreen;
+}

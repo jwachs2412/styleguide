@@ -1,0 +1,51 @@
+/*! =Media Queries
+-------------------------------------------------------------- */
+ 
+/* 1169-992px */
+@media only screen and (min-width: 992px) and (max-width: 1169px) {
+	.palettes {
+		margin: 5px;
+	}
+}
+ 
+/* 991-768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+ 	.palettes {
+	 	height: 125px;
+	 	margin: 5px;
+	 	width: 225px;
+ 	}
+ 	
+ 	.palettes .palette-info {
+	 	top: 3.5em;
+ 	}
+}
+
+/* 767-480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.palettes {
+		height: 125px;
+		margin: 5px;
+		width: 135px;
+	}
+}
+ 
+/* 479px */
+@media only screen and (max-width: 479px) {
+ 	.palettes {
+	 	height: 125px;
+	 	margin: 5px;
+	 	width: 100%;
+ 	}
+ 	
+ 	.palettes .palette-info {
+	 	left: 0;
+	 	opacity: 1;
+	 	text-align: center;
+	 	top: 3em;
+ 	}
+ 	
+ 	.palette-info.light {
+	color: $paletteLight;
+	}
+}
